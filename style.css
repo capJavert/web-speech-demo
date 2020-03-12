@@ -49,7 +49,7 @@ button.speech {
 
 .microphone-icon {
   width: 20px;
-  height: 20px;
+  height: auto;
   margin-top: 1px;
 }
 
