@@ -1,0 +1,69 @@
+body, html {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  height: 100%;
+  background-color: white;
+}
+
+body {
+  height: inherit;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  height: 34px;
+  border: 0;
+  border-radius: 15px;
+  width: 600px;
+  margin-right: -32px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+}
+
+button.speech {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 0 0 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.microphone-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 1px;
+}
+
+.language-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.language-container div {
+  font-size: 13px;
+}
+
+.language-picker {
+  margin-left: 10px;
+}

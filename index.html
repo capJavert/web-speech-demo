@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Speech search</title>
+
+  <link rel="stylesheet" href="style.css">
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <h1>Speech search</h1>
+  <p>Press the button then say the phrase to test the speech recognition...</p>
+  <div class="language-container">
+    <div>Select your speaking language:</div>
+    <select class="language-picker">
+      <option selected value="hr-HR">Hrvatski</option>
+      <option value="en-US">English</option>
+      <option value=sl-SI>Slovenščina</option>
+    </select>
+  </div>
+
+  <div class="input-container">
+    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon"
+      aria-describedby="button-addon1">
+    <button class="btn btn-outline-secondary speech" type="button" id="button-addon1">
+      <img class="microphone-icon" src="microphone.png" alt="Speak fool!" />
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
